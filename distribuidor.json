@@ -1,0 +1,102 @@
+[
+	{
+		"id": 20000162,
+		"centro": 2,
+		"dni": 26980172,
+		"nombre": "Daniel",
+		"apellido": "Calderon",
+		"telefono": "+542615370075",
+		"email": "ddaniel_calderon@hotmail.com",
+		"categoria": "Junior",
+		"razon-social": "sujeto - no categorizado",
+		"direccion": {
+			"calle": "josé Manuel Estrada",
+			"numero": "1424",
+			"departamento": "Rivadavia",
+			"provincia": "Mendoza",
+			"pais": "Argentina",
+			"codPostal": 5577
+		},
+		"patrocinante": {
+			"nombre": "Daniel",
+			"apellido": "DiPietro",
+			"centro": 4,
+			"nroDistribuidor": 20000162
+		}
+	},
+	{
+		"id": 20000163,
+		"centro": 4,
+		"dni": 26984553,
+		"nombre": "Thomas",
+		"apellido": "Calderon",
+		"telefono": "+542615370075",
+		"email": "thomas_calderon@hotmail.com",
+		"categoria": "Junior",
+		"razon-social": "responsable inscripto",
+		"direccion": {
+			"calle": "josé Manuel Estrada",
+			"numero": "1424",
+			"departamento": "Rivadavia",
+			"provincia": "Mendoza",
+			"pais": "Argentina",
+			"codPostal": 5577
+		},
+		"patrocinante": {
+			"nombre": "Daniel",
+			"apellido": "DiPietro",
+			"centro": 4,
+			"nroDistribuidor": 20000162
+		}
+	},
+	{
+		"id": 20000165,
+		"centro": 1,
+		"dni": 26980172,
+		"nombre": "Martina",
+		"apellido": "Calderon",
+		"telefono": "+542614560075",
+		"email": "marina_calderon@hotmail.com",
+		"categoria": "Junior",
+		"razon-social": "responsable inscripto",
+		"direccion": {
+			"calle": "josé Manuel Estrada",
+			"numero": "1424",
+			"departamento": "Rivadavia",
+			"provincia": "Mendoza",
+			"pais": "Argentina",
+			"codPostal": 5577
+		},
+		"patrocinante": {
+			"nombre": "Daniel",
+			"apellido": "DiPietro",
+			"centro": 4,
+			"nroDistribuidor": 20000162
+		}
+	},
+	{
+		"id": 20000172,
+		"centro": 4,
+		"dni": 26852172,
+		"nombre": "Lucia",
+		"apellido": "Calderon",
+		"telefono": "+542615370075",
+		"email": "lucia_calderon@hotmail.com",
+		"categoria": "Junior",
+		"razon-social": "sujeto - no categorizado",
+		"direccion": {
+			"calle": "josé Manuel Estrada",
+			"numero": "1424",
+			"departamento": "Rivadavia",
+			"provincia": "Mendoza",
+			"pais": "Argentina",
+			"codPostal": 5577
+		},
+		"patrocinante": {
+			"nombre": "Daniel",
+			"apellido": "DiPietro",
+			"centro": 4,
+			"nroDistribuidor": 20000162
+		}
+	}
+]
