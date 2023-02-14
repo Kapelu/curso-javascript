@@ -14,8 +14,7 @@ En este curso introductorio podrás aprender y practicar todo el contenido que n
 
 El Prep Course (curso preparatorio) es un curso diseñado con la finalidad de nivelar a todos nuestros aplicantes. Con este curso darás tus primeros pasos en el mundo de la tecnología y aprenderás esos conceptos básicos que son necesarios para poder realizar la carrera.
 
-El curso consiste en una serie de videos, material teórico y ejercicios con los que podrás aprender nuestro lenguaje de desarrollo: Javascript. Puedes avanzar con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge.
-
+El curso consiste en una serie de videos, material teórico y ejercicios con los que podrás aprender nuestro lenguaje de desarrollo: Javascript. Puedes avanzar con el contenido a tu ritmo y de manera asincrónica (es decir, en los horarios y tiempos que tu prefieras). Cuando hayas finalizado, podrás inscribirte para realizar el Henry Challenge. **[📖 Guia de INICIO](https://rise.articulate.com/share/O0SjmUFcjx_3AXSA2lizESbHitgJIOpq?_ga=2.206568467.149013379.1676340017-1662760164.1676340017#/lessons/EyfzA-4rOJ0lIs3RUjOs8EdmkdUYnzj6)**
 </br >
 
 ## **📖 ¿QUÉ ES EL HENRY CHALLENGE?**
