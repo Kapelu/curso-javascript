@@ -1,7 +1,10 @@
 <img align='center' src="https://github.com/Kapelu/Bootcamp-HENRY/blob/main/docs/code.png" min-width="200px" max-width="200px" width="900px" alt="kapelucito">
 <h1 align="center">Aprehender!!!</h1>
 
-<p style='text-align: justify'>
+<p style='display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify'>
 Los conocimientos adquiridos a través del `aprender` se pueden olvidar con el tiempo ya que el individuo no lo internaliza, como el caso de que a los días no se recuerda la lección estudiada en la universidad, muy diferente con el `aprehender` ya que los conocimientos obtenidos jamás se olvidan, por ejemplo: el colocarse unos zapatos, o que string es una cadena de texto.
 
 Por lo tanto, es fundamental que tengamos en claro nuestro propósito, a donde queremos llegar y cuál es nuestra meta. Cabe destacar que el ser humano tiene la disposición de aprehender solo aquello a lo que le encuentra sentido o lógica. 
