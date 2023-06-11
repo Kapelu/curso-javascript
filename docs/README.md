@@ -1,4 +1,3 @@
-<img align='center' src="https://github.com/Kapelu/Bootcamp-HENRY/blob/main/docs/code.png" min-width="200px" max-width="200px" width="900px" alt="kapelucito">
 <h1 align="center">Aprehender!!!</h1>
 
 <p style='display: flex;
