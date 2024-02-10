@@ -8,6 +8,7 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve False.
    // Tu código:
+   return num > 0 ? "Es positivo" : (num < 0 ? "Es negativo" : false)
 }
 
 function agregarSimboloExclamacion(str) {
