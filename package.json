@@ -1,0 +1,14 @@
+{
+   "name": "developer",
+   "version": "3.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "jest --collectCoverage=false"
+   },
+   "author": "Daniel Calderon",
+   "dependencies": {
+      "eslint": "^8.28.0",
+      "jest": "^29.3.1"
+   }
+}
