@@ -5,19 +5,8 @@ menorMayor([4, 6, 1, 7, 15]) debe retornar [1, 15]
 ya que 1 es el número más chico (menor) dentro del arreglo [4, 6, 1, 7, 15]
 y 15 es el número más grande (mayor) dentro del arreglo [4, 6, 1, 7, 15]
 */
-//* Tu código aca:
 function menorMayor(numeros) {
-	let array = [numeros[0], numeros[0]]
-
-	for (var i = 1; i < numeros.length; i++) {
-		if (numeros[i] > array[1]) {
-			array[1] = numeros[i]
-		}
-		if (numeros[i] < array[0]) {
-			array[0] = numeros[i]
-		}
-	}
-	return array
+  // Tú código aca:
 }
 
 /*
@@ -44,15 +33,8 @@ let usuarios = {
 cuantosOnline(usuarios) devuelve 2
 Tip: Podes usar el metodo for...in
 */
-//* Tu código aca:
 function cuantosOnline(usuarios) {
-	let onLine = 0,
-		offLine = 0
-
-	for (let estado in usuarios) {
-		usuarios[estado].online === true ? onLine++ : offLine++
-	}
-	return onLine
+  //* Tu código aca:
 }
 
 /*
@@ -62,20 +44,8 @@ Por ej:
 divisores(15) devuelve [3, 5]
 divisores(11) devuelve 'Es primo'
 */
-//* Tu código aca:
 function divisores(numero) {
-	let resultado = []
-	for (let i = 2; i < numero; i++) {
-		let divisor = numero % i
-		if (divisor === 0) {
-			resultado.push(i)
-		}
-	}
-	if (resultado.length === 0) {
-		return 'Es primo'
-	} else {
-		return resultado
-	}
+  // Tú código aca:
 }
 
 /*  
@@ -85,18 +55,8 @@ ej: persona1 = ['leer', 'comer', 'pasear', 'dormir', 'jugar']
 actividadesEnComun(persona1, persona2) => ['comer', 'dormir']
 Tip: podes usar ciclos for anidados.
 */
-//* Tu código aca:
 function actividadesEnComun(persona1, persona2) {
-	var coincidencias = []
-
-	for (var i = 0; i < persona1.length; i++) {
-		for (var hobby of persona2) {
-			if (persona1[i] === hobby) {
-				coincidencias.push(hobby)
-			}
-		}
-	}
-	return coincidencias
+  // Tú código aca:
 }
 
 /*  
@@ -104,97 +64,67 @@ La funcion llamada 'palabraMasLarga' recibe un array 'array' de frases (strings)
 Por ej:
 palabraMasLarga(['hola esto string', 'frase con palabra']) debe devolver 'palabra'
 */
-//* Tu código aca:
 function palabraMasLarga(array) {
-	var palabra = ''
-	array.forEach(function (string) {
-		var array = string.split(' ')
-		for (var i = 0; i < array.length; i++) {
-			if (palabra.length < array[i].length) {
-				palabra = array[i]
-			}
-		}
-	})
-	return palabra
+  // Tú código aca:
 }
 
 function crearClaseEmprendedor() {
-	class Emprendedor {
-		/*
+  class Emprendedor {
+    /*
     El constructor de la clase Emprendedor recibe nombre (string), apellido (string), libros (array de objetos), mascotas (array de strings)
     Inicializar las propiedades del emprendedor con los valores recibidos como argumento
     */
-		//* Tu código aca:
-		constructor(nombre, apellido, libros, mascotas) {
-			this.nombre = nombre
-			this.apellido = apellido
-			this.libros = libros
-			this.mascotas = mascotas
-			this.emprendedor = function () {
-				return {
-					nombre: this.nombre,
-					apellido: this.apellido,
-					libros: this.libros,
-					mascotas: this.mascotas,
-				}
-			}
-		}
+    constructor(nombre, apellido, libros, mascotas) {
+      this.emprendedor = function () {
+        // Tú código aca:
+      };
+    }
 
-		// este método debe agregar una mascota (mascota) al arreglo de mascotas del emprendedor. no debe retornar nada.
-		//* Tu código aca:
-		addMascota(mascota) {
-			this.mascotas.push(mascota)
-		}
+    // este método debe agregar una mascota (mascota) al arreglo de mascotas del emprendedor. no debe retornar nada.
+    addMascota(mascota) {
+			//* Tú código aca:
+    }
 
-		/*
+    /*
     El método 'getMascotas' debe retornar la cantidad de mascotas que tiene el emprendedor.
     Ej:
     Suponiendo que el emprendedor tiene estas mascotas: ['perro', 'gato']
     emprendedor.getMascotas() debería devolver 2
     */
-		//* Tu código aca:
-		getMascotas() {
-			let mascotas = ['perro', 'gato']
-			return this.mascotas.length
-		}
+    getMascotas() {
+      // Tú código aca:
+    }
 
-		/*
+    /*
     El método 'addBook' recibe un string 'book' y un string 'autor' y debe agregar un objeto:
     { nombre: book, autor: autor} al arreglo de libros del emprendedor.
     No debe retornar nada.
     */
-		//* Tu código aca:
-		addBook(book, autor) {
-			this.libros.push({nombre: book, autor: autor})
-		}
+    addBook(book, autor) {
+      // Tú código aca:
+    }
 
-		/*
+    /*
     El método 'getBooks' debe retornar un arreglo con sólo los nombres del arreglo de libros del emprendedor.
     Ej:
     Suponiendo que el emprendedor tiene estos libros: [{nombre: 'El señor de las moscas',autor: 'William Golding'}, {nombre: 'Fundacion', autor: 'Isaac Asimov'}]
     emprendedor.getBooks() debería devolver ['El señor de las moscas', 'Fundacion']
     */
-		//* Tu código aca:
-		getBooks() {
-			let arreglo = []
-			for (var i = 0; i < this.libros.length; i++) {
-				arreglo.push(this.libros[i].nombre)
-			}
-			return arreglo
-		}
+    getBooks() {
+      // Tú código aca:
+    }
 
-		/*
+    /*
     El metodo getFullName debe retornar un string con el nombre y apellido del emprendedor.
     ej:
     Suponiendo que el emprendedor tiene: nombre: 'Elon' y apellido: 'Musk'
     emprendedor.getFullName() deberia devolver 'Elon Musk'
     */
-		//* Tu código aca:
-		getFullName() {
-			return this.nombre + ' ' + this.apellido
-		}
-	}
-	return Emprendedor
+    getFullName() {
+      // Tú código aca:
+    }
+  }
+  return Emprendedor;
 }
 
 /* ====================== EXTRA CREDIT ===================== */
@@ -206,25 +136,16 @@ Escribi una funcion llamada 'repeatCharacters' en el prototypo del objeto global
 Por ej:
 'hola'.repeatCharacters() devuelve "hhoollaa"
 */
-//* Tu código aca:
 function repetirCaracteres() {
-	String.prototype.repeatCharacters = function () {
-		let texto = this
-		let nuevoTexto = ''
-		for (var i = 0; i < texto.length; i++) {
-			let letra = texto[i]
-			nuevoTexto += letra.charAt().repeat(2)
-		}
-		return nuevoTexto
-	}
+	// Tú código aca:
 }
 
 module.exports = {
-	menorMayor,
-	divisores,
-	cuantosOnline,
-	actividadesEnComun,
-	palabraMasLarga,
-	crearClaseEmprendedor,
-	repetirCaracteres,
-}
+  menorMayor,
+  divisores,
+  cuantosOnline,
+  actividadesEnComun,
+  palabraMasLarga,
+  crearClaseEmprendedor,
+  repetirCaracteres,
+};

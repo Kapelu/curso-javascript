@@ -7,22 +7,11 @@ function BinarioADecimal(num) {
 // Crea una función que pase de decimal a binario
 function DecimalABinario(num) {
   //Tú código:
-  //return num === 0 ? "0" : num.toString(2);
-  let binario = "";
-
-  if (num === 0) return "0";
-
-  while (num > 0) {
-    binario = (num % 2) + binario; // Concatenar el residuo al binario
-    num = Math.floor(num / 2); // Actualizar el número dividiéndolo por 2
-  }
-
-  return binario;
 }
 
 //* Closures
 
-/* Ejercicio 1
+/*
 La función counter debe retornar otra función. Esta función retornada debe actuar como un contador, retornando 
 un valor numérico que empieza en 1 e incrementa con cada invocación.
 EJEMPLO
@@ -37,7 +26,7 @@ function counter() {
   //Tú código:
 }
 
-/* Ejercicio 2
+/*
 Tu tarea aquí es lograr, mediante un closure, que cacheFunction actúe como una memoria caché para el callback 
 que recibe por parámetro (cb); es decir, que "recuerde" el resultado de cada operación que hace, de manera que, 
 al realizar una operación por segunda vez, se pueda obtener el resultado de esa "memoria" sin tener que efectuar 
@@ -74,11 +63,10 @@ var alumno = {
 };
 
 function getNombre() {
-  return this.nombre;
+  // Tú código
 }
 
 /*
-  Ejercicio 3
   IMPORTANTE: no modificar el código de arriba (variables instructor y alumno, y función getNombre)
   Usando el método bind() guardar, en las dos variables declaradas a continuación, dos funciones que actúen como getNombre pero retornen el nombre del instructor y del alumno, respectivamente.
 */
@@ -87,12 +75,11 @@ let getNombreInstructor = getNombre.bind();
 let getNombreAlumno = getNombre.bind();
 
 /*
-  Ejercicio 4
   Sin modificar la función crearCadena, usar bind para guardar, en las tres variables declaradas a continuación, tres funciones que retornen una cadena (string) y el delimitador especificado (asteriscos, guiones, y guiones bajos, respectivamente). Las funciones obtenidas deberían recibir solamente un argumento - la cadena de texto - ya que los otros argumentos habrán sido "bindeados". 
 */
 
 function crearCadena(delimitadorIzquierda, delimitadorDerecha, cadena) {
-  return delimitadorIzquierda + cadena + delimitadorDerecha;
+  // Tú código:
 }
 
 let textoAsteriscos = crearCadena.bind();
@@ -135,7 +122,7 @@ function Queue() {
   //Tú código:
 }
 
-/* EJERCICIO 1
+/*
 Implementar la clase LinkedList, definiendo los siguientes métodos:
   - add: agrega un nuevo nodo al final de la lista;
   - remove: elimina el último nodo de la lista y retorna su valor (tener en cuenta el caso particular de una lista de un solo nodo y de una lista vacía);
@@ -145,11 +132,15 @@ Implementar la clase LinkedList, definiendo los siguientes métodos:
   search(isEven), donde isEven es una función que retorna true cuando recibe por parámetro un número par, busca un nodo cuyo valor sea un número par.
   En caso de que la búsqueda no arroje resultados, search debe retornar null.
 */
-function LinkedList() {}
+function LinkedList() {
+  //Tú código:
+}
 
-function Node(value) {}
+function Node(value) {
+  //Tú código:
+}
 
-/* EJERCICIO 2
+/*
 Implementar la clase HashTable.
 Nuetra tabla hash, internamente, consta de un arreglo de buckets (slots, contenedores, o casilleros; es decir, posiciones posibles para almacenar la información), donde guardaremos datos en formato clave-valor (por ejemplo, {instructora: 'Ani'}).
 Para este ejercicio, la tabla debe tener 35 buckets (numBuckets = 35). (Luego de haber pasado todos los tests, a modo de ejercicio adicional, pueden modificar un poco la clase para que reciba la cantidad de buckets por parámetro al momento de ser instanciada.)
@@ -162,10 +153,12 @@ La clase debe tener los siguientes métodos:
 
 Ejemplo: supongamos que quiero guardar {instructora: 'Ani'} en la tabla. Primero puedo chequear, con hasKey, si ya hay algo en la tabla con el nombre 'instructora'; luego, invocando set('instructora', 'Ani'), se almacenará el par clave-valor en un bucket específico (determinado al hashear la clave)
 */
-function HashTable() { }
+function HashTable() {
+  //Tú código:
+}
 
 /*
- Implementar la clase BinarySearchTree, definiendo los siguientes métodos recursivos:
+  Implementar la clase BinarySearchTree, definiendo los siguientes métodos recursivos:
   - size: retorna la cantidad total de nodos del árbol
   - insert: agrega un nodo en el lugar correspondiente
   - contains: retorna true o false luego de evaluar si cierto valor existe dentro del árbol
@@ -173,49 +166,52 @@ function HashTable() { }
   - breadthFirstForEach: recorre el árbol siguiendo el orden breadth first (BFS)
   El ábrol utilizado para hacer los tests se encuentra representado en la imagen bst.png dentro del directorio homework.
 */
-function BinarySearchTree() {}
+function BinarySearchTree() {
+  //Tú código:
+}
 
+// Factorear el número recibido como parámetro y devolver en un array
+// los factores por los cuales se va dividiendo a dicho número (De menor a mayor)
+// Ej: factorear(180) --> [1, 2, 2, 3, 3, 5] Ya que 1x2x2x3x3x5 = 180 y son todos números primos
 function factorear(num) {
-  // Factorear el número recibido como parámetro y devolver en un array
-  // los factores por los cuales se va dividiendo a dicho número (De menor a mayor)
-  // Ej: factorear(180) --> [1, 2, 2, 3, 3, 5] Ya que 1x2x2x3x3x5 = 180 y son todos números primos
   // Tu código:
 }
 
+// Implementar el método conocido como bubbleSort para ordenar de menor a mayor
+// el array recibido como parámetro
+// Devolver el array ordenado resultante
 function bubbleSort(array) {
-  // Implementar el método conocido como bubbleSort para ordenar de menor a mayor
-  // el array recibido como parámetro
-  // Devolver el array ordenado resultante
-  // Tu código:
+  //Tú código:
 }
 
+// Implementar el método conocido como insertionSort para ordenar de menor a mayor
+// el array recibido como parámetro utilizando arreglos
+// Devolver el array ordenado resultante
 function insertionSort(array) {
-  // Implementar el método conocido como insertionSort para ordenar de menor a mayor
-  // el array recibido como parámetro utilizando arreglos
-  // Devolver el array ordenado resultante
-  // Tu código:
+  //Tú código:
 }
 
+// Implementar el método conocido como selectionSort para ordenar de menor a mayor
+// el array recibido como parámetro utilizando dos arreglos
+// Devolver el array ordenado resultante
 function selectionSort(array) {
-  // Implementar el método conocido como selectionSort para ordenar de menor a mayor
-  // el array recibido como parámetro utilizando dos arreglos
-  // Devolver el array ordenado resultante
-  // Tu código:
+  //Tú código:
 }
 
+// Implementar el método conocido como quickSort para ordenar de menor a mayor
+// el array recibido como parámetro
+// Devolver el array ordenado resultante
 function quickSort(array) {
-  // Implementar el método conocido como quickSort para ordenar de menor a mayor
-  // el array recibido como parámetro
-  // Devolver el array ordenado resultante
-  // Tu código:
+  //Tú código:
 }
 
+// Implementar el método conocido como mergeSort para ordenar de menor a mayor
+// el array recibido como parámetro
+// Devolver el array ordenado resultante
 function mergeSort(array) {
-  // Implementar el método conocido como mergeSort para ordenar de menor a mayor
-  // el array recibido como parámetro
-  // Devolver el array ordenado resultante
-  // Tu código:
+  // Tú código:
 }
+
 module.exports = {
   BinarioADecimal,
   DecimalABinario,

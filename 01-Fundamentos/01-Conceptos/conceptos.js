@@ -1,124 +1,101 @@
 /* NO MODIFIQUES EL NOMBRE DE LAS FUNCIONES */
 
 // Crea una variable de tipo string.
-const string = "Daniel";
+const string = null;
 
 // Crea una variable de tipo number.
-const numero = 150;
+const numero = null;
 
 // Crea una variable de tipo boolean.
-const boolean = true;
+const boolean = null;
 
 // ⛔️ "X" e "Y" son números.
 
 // Retorna el resultado de su suma.
 function suma(x, y) {
-  // Tu código:
-  return x + y;
+  // Tú código:
 }
 
 // Retorna el resultado de la resta.
 function resta(x, y) {
-  // Tu código:
-  return x - y;
+  // Tú código:
 }
 
 // Retorna el resultado de su división.
 function divide(x, y) {
-  // Tu código:
-  return x / y;
+  // Tú código:
 }
 
 // Retorna el resultado de su multiplicación.
 function multiplica(x, y) {
-  // Tu código:
-  return x * y;
+  // Tú código:
 }
 
 // Obten el resto de la división de "x" entre "y".
 function obtenerResto(x, y) {
-  // Tu código:
-  return x % y;
+  // Tú código:
 }
 
-// Retorna True si "x" e "y" son iguales.
-// De lo contrario, retorna False.
+// Retorna True si "x" e "y" son iguales. De lo contrario, retorna False.
 function sonIguales(x, y) {
-  // Tu código:
-  return x === y ? true : false;
+  // Tú código:
 }
 
-// Retorna True si los dos strings tienen la misma longitud.
-// De lo contrario, retorna False.
+// Retorna True si los dos strings tienen la misma longitud. De lo contrario, retorna False.
 function tienenMismaLongitud(str1, str2) {
-  // Tu código:
-  return str1.length === str2.length ? true : false;
+  // Tú código:
 }
 
-// Retorna True si el argumento "num" es menor que noventa.
-// De lo contrario, retorna False.
+// Retorna True si el argumento "num" es menor que noventa. De lo contrario, retorna False.
 function menosQueNoventa(num) {
-  // Tu código:
-  return num < 90 ? true : false;
+  // Tú código:
 }
 
-// Retorna True si el argumento "num" es mayor que cincuenta.
-// De lo contrario, retorna False.
+// Retorna True si el argumento "num" es mayor que cincuenta. De lo contrario, retorna False.
 function mayorQueCincuenta(num) {
-  // Tu código:
-  return num > 50 ? true : false;
+  // Tú código:
 }
 
-// Retorna True si "num" es par.
-// De lo contrario, retorna False.
+// Retorna True si "num" es par. De lo contrario, retorna False.
 function esPar(num) {
-  // Tu código:
-  return num % 2 === 0 ? true : false;
+  // Tú código:
 }
 
-// Retorna True si "num" es impar.
-// De lo contrario, retorna False.
+// Retorna True si "num" es impar. De lo contrario, retorna False.
 function esImpar(num) {
-  // Tu código:
-  return num % 2 !== 0 ? true : false;
+  // Tú código:
 }
 
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
 // Retorna el valor de "num" elevado al cuadrado.
 function elevarAlCuadrado(num) {
-  // Tu código:
-  return num ** 2;
+  // Tú código:
 }
 
 // Retorna el valor de "num" elevado al cubo.
 function elevarAlCubo(num) {
-  // Tu código:
-  return num ** 3;
+  // Tú código:
 }
 
 // Retorna el valor de "num" elevado al exponente "exponent".
 function elevar(num, exponent) {
-  // Tu código:
-  return num ** exponent;
+  // Tú código:
 }
 
 // Redondea "num" al entero más próximo y retórnalo.
 function redondearNumero(num) {
-  // Tu código:
-  return Math.round(num);
+  // Tú código:
 }
 
 // Redondea "num" hacia arriba y retórnalo.
 function redondearHaciaArriba(num) {
-  // Tu código:
-  return Math.ceil(num);
+  // Tú código:
 }
 
 // Genera un número al azar entre 0 y 1 y retórnalo.
 function numeroRandom() {
-  // Tu código:
-  return Math.random();
+  // Tú código:
 }
 
 // La función recibe un entero. Devuelve como resultado un string que indica si el número
@@ -127,55 +104,54 @@ function numeroRandom() {
 // Si el número es negativo ---> "Es negativo".
 // Si el número es 0, devuelve False.
 function esPositivo(num) {
-  // Tu código:
-  return num > 0 ? "Es positivo" : num < 0 ? "Es negativo" : false;
+  // Tú código:
 }
 
 // Agrega un símbolo de exclamación al final del string "str" y retórnalo
 // Ejemplo: "hello world" ---> "hello world!"
 function agregarSimboloExclamacion(str) {
-  // Tu código:
+  // Tú código:
 }
 
 // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
 // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
 function combinarNombres(nombre, apellido) {
-  // Tu código:
+  // Tú código:
 }
 
 // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
 // Ejemplo: "Martin" ---> "Hola Martin!"
 function obtenerSaludo(nombre) {
-  // Tu código:
+  // Tú código:
 }
 
 // Retornar el área de un rectángulo teniendo su altura y ancho.
 function obtenerAreaRectangulo(alto, ancho) {
-  // Tu código:
+  // Tú código:
 }
 
 // La función recibe como argumento la medida de un lado de un rectángulo.
 // Debes retornar su perímetro.
 function retornarPerimetro(lado) {
-  // Tu código:
+  // Tú código:
 }
 
 // Calcula el área de un triángulo y retorna el resultado.
 function areaDelTriangulo(base, altura) {
-  // Tu código:
+  // Tú código:
 }
 
 // Supongamos que 1 dolar equivale a 936,80 peso.
 // Debes calcular el valor recibido como argumento pasándolo a pesos.
 function deDolaresApesos(dolar) {
-  // Tu código:
+  // Tú código:
 }
 
 // Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
 // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
 // Si no es vocal, tambien debe retornar "Dato incorrecto".
 function esVocal(letra) {
-  // Tu código:
+  // Tú código:
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

@@ -3,7 +3,7 @@
 // Estos elementos debe ser cada par clave:valor del objeto recibido.
 // [EJEMPLO]: {D: 1, B: 2, C: 3} ---> [['D', 1], ['B', 2], ['C', 3]].
 function deObjetoAarray(objeto) {
-  // Tu código:
+  // Tú código:
 }
 
 // La función recibe un string. Debes recorrerlo y retornar un objeto donde cada propiedad es una de las
@@ -11,7 +11,7 @@ function deObjetoAarray(objeto) {
 // Las letras deben estar en orden alfabético.
 // [EJEMPLO]: "adsjfdsfsfjsdjfhacabcsbajda" ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 }
 function numberOfCharacters(string) {
-  // Tu código:
+  // Tú código:
 }
 
 // Recibes un string con algunas letras en mayúscula y otras en minúscula.
@@ -19,26 +19,26 @@ function numberOfCharacters(string) {
 // Retornar el string.
 // [EJEMPLO]: soyHENRY ---> HENRYsoy
 function capToFront(string) {
-  // Tu código:
+  // Tú código:
 }
 
 // Recibes una frase. Tu tarea es retornar un nuevo string en el que el orden de las palabras sea el mismo.
 // La diferencia es que cada palabra estará escrita al inverso.
 // [EJEMPLO]: "The Henry Challenge is close!"  ---> "ehT yrneH egnellahC si !esolc"
 function asAmirror(frase) {
-  // Tu código:
+  // Tú código:
 }
 
 // Si el número que recibes es capicúa debes retornar el string: "Es capicua".
 // Caso contrario: "No es capicua".
 function capicua(numero) {
-  // Tu código:
+  // Tú código:
 }
 
 // Tu tarea es eliminar las letras "a", "b" y "c" del string recibido.
 // Retorna el string sin estas letras.
 function deleteAbc(string) {
-  // Tu código:
+  // Tú código:
 }
 
 // Recibes un arreglo de strings.
@@ -46,7 +46,7 @@ function deleteAbc(string) {
 // de la longitud de cada string.
 // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
 function sortArray(arrayOfStrings) {
-  // Tu código:
+  // Tú código:
 }
 
 // Recibes dos arreglos de números.
@@ -55,7 +55,7 @@ function sortArray(arrayOfStrings) {
 // Si no tienen elementos en común, retornar un arreglo vacío.
 // [PISTA]: los arreglos no necesariamente tienen la misma longitud.
 function buscoInterseccion(array1, array2) {
-  // Tu código:
+  // Tú código:
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
