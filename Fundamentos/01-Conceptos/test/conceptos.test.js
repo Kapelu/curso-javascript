@@ -29,9 +29,9 @@ const {
   areaDelTriangulo,
   deDolaresApesos,
   esVocal,
-} = require("../fundamentos");
+} = require("../conceptos");
 
-describe("Fundamentos", function () {
+describe("Conceptos", function () {
   describe("String", function () {
     it("Debe ser un string", function () {
       expect(typeof string).toBe("string");
