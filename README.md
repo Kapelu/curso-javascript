@@ -12,7 +12,7 @@ Esto instalará todas las dependencias necesarias (lo tenés que hacer una sóla
 npm test {nombre del homework}.test.js
 ```
 
-Por ejemplo, para ejecutar los tests del Fundamentos, ejecutar: `npm test fundamentos.test.js`, también podrías ejecutar `npm test fundamentos`. y así con cada ejercicio de las diferentes carpetas.
+Por ejemplo, para ejecutar los tests de la carpeta Fundamentos, ejecutar: `npm test fundamentos.test.js`, también podrías ejecutar `npm test fundamentos`. y así con cada ejercicio de las diferentes carpetas. Otra forma de saber cuantos ejercicos llevas resueltos de todo el repo simplemente ejecuta `npm test`.
 
 Ya tenemos todo para empezar... Éxitos!!! 🍀
 
